@@ -8,3 +8,11 @@ def count_vowels(text):
         if char in vowels:
             count += 1
     return count
+def main():
+    word = input("Enter a word: ")
+
+    print("Reversed: ", reverse_string(word))
+    print("Number of vowels: ", count_vowels(word))
+
+if __name__ == "__main__":
+    main()
